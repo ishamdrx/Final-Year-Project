@@ -1,0 +1,4 @@
+gpt4all
+langchain
+faiss-cpu
+PyPDF2
