@@ -37,20 +37,21 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📁 Project Structure
 
+```plaintext
 URCoach/
+├── SYSTEM/                    # Flutter application source code
+│   └── lib/                  # Includes LoginPage.dart, InputWrapper.dart, etc.
 │
-├── SYSTEM/ # Flutter application source code
-│ └── lib/ # Includes LoginPage.dart, InputWrapper.dart, etc.
-│
-├── CHATBOT/ # Python chatbot system using RAG
-│ ├── Datasets/
-│ │ └── sprint_datasets.jsonl
-│ ├── localdocs_index/
-│ ├── app.py
-│ ├── finetune.py
-│ ├── ingest_jsonl_docs.py
-│ ├── requirements.txt
-│ └── train_gpt4all.py
+├── CHATBOT/                  # Python chatbot system using RAG
+│   ├── Datasets/
+│   │   └── sprint_datasets.jsonl
+│   ├── localdocs_index/
+│   ├── app.py
+│   ├── finetune.py
+│   ├── ingest_jsonl_docs.py
+│   ├── requirements.txt
+│   └── train_gpt4all.py
 │
 ├── LICENSE
 └── README.md
+```
