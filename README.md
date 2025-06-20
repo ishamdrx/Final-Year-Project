@@ -22,7 +22,7 @@ Admin Panel:
 -Monitor system records
 
 **🧠 Chatbot**
--Built with Python using a Retrieval-Augmented Generation (RAG) approach:
+Built with Python using a Retrieval-Augmented Generation (RAG) approach:
 -Matches athlete prompts with local indexed documents for relevant replies
 -Falls back to model-generated output for unmatched prompts (e.g., unrelated queries)
 -Extremely fast and context-aware
