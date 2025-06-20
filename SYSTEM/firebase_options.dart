@@ -50,21 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBFwDJaIZ0rkMdzXuggovLuDjsKduGs544',
-    appId: '1:759858029540:web:e7c87e5d4e8f6493929df1',
-    messagingSenderId: '759858029540',
-    projectId: 'ur-coach',
-    authDomain: 'ur-coach.firebaseapp.com',
-    storageBucket: 'ur-coach.firebasestorage.app',
-    measurementId: 'G-N5Q26D4LB1',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    authDomain: 'xxx',
+    storageBucket: 'xxx',
+    measurementId: 'xxx',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAZZW1wYe4oAZBi52dS6vMP3BsgPK87ZUs',
-    appId: '1:759858029540:android:6ab758c89b6f475f929df1',
-    messagingSenderId: '759858029540',
-    projectId: 'ur-coach',
-    storageBucket: 'ur-coach.firebasestorage.app',
+    apiKey: 'xxx',
+    appId: 'xxx',
+    messagingSenderId: 'xxx',
+    projectId: 'xxx',
+    storageBucket: 'xxx',
   );
 
 }
